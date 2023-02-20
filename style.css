@@ -699,6 +699,7 @@ div label[for=ui-component-toggle__yearly] {
 
     --ui-gap-header: 1.5rem;
     --ui-gap-card  : 1.5rem;
+    --ui-gap-faq   : 2rem;
 
   }
 
@@ -835,6 +836,16 @@ div label[for=ui-component-toggle__yearly] {
   ------------------------------------------------------------*/
 
   .ui-component-card--pricing { padding: 2rem 2rem 2.25rem; }
+  
+  /*------------------------------------------------------------
+  |
+  | FAQ
+  |
+  ------------------------------------------------------------*/
+
+  .ui-section-faq__layout { margin-bottom: 3rem; }
+
+  .ui-section-faq--answer { padding-left: 2rem; }
 
   /*------------------------------------------------------------
   |
@@ -1065,10 +1076,6 @@ div label[for=ui-component-toggle__yearly] {
   | FAQ
   |
   ------------------------------------------------------------*/
-
-  .ui-section-faq__layout { margin-bottom: 3rem; }
-
-  .ui-section-faq--answer { padding-left: 2rem; }
 
   .ui-section-faq { padding-bottom: 7.5rem; }
 
