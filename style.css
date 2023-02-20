@@ -22,7 +22,8 @@ TABLE OF CONTENT
 |  7.4 FEATURE
 |  7.5 PRICING
 |  7.6 TESTIMONIAL
-|  7.7 CLOSE
+|  7.7 FAQ
+|  7.75 CLOSE
 |  7.8 FOOTER
 8.0 MEDIA
 |  8.1 768PX
@@ -118,6 +119,7 @@ TABLE OF CONTENT
   --ui-gap-card       : 1.25rem;
   --ui-gap-pricing    : 2rem;
   --ui-gap-testimonial: 3rem;
+  --ui-gap-faq   : 2rem;
 
   /* BORDER RADIUS */
   
@@ -588,7 +590,30 @@ div label[for=ui-component-toggle__yearly] {
 
 /*--------------------------------------------------------------
 |
-| 7.7 CLOSE
+| 7.7 FAQ
+|
+--------------------------------------------------------------*/
+
+.ui-section-faq { padding-bottom: 5rem; }
+
+.ui-section-faq__layout {
+  margin-bottom: 2rem;
+  row-gap: var(--ui-gap-faq);
+  text-align: left;
+}
+
+.ui-section-faq--question {
+  background-image: url(https://res.cloudinary.com/uisual/image/upload/assets/icons/question.svg);
+  margin-bottom: .5rem;
+}
+
+.ui-section-faq--answer { padding-left: 1.875rem; }
+
+.ui-section-faq--note { text-align: center; }
+
+/*--------------------------------------------------------------
+|
+| 7.75 CLOSE
 |
 --------------------------------------------------------------*/
 
@@ -598,6 +623,13 @@ div label[for=ui-component-toggle__yearly] {
   padding-top: 5rem;
   text-align: center;
 }
+
+.ui-section-close__layout {
+  align-items: stretch;
+  flex-direction: column;
+  row-gap: var(--ui-typography-margin-body);
+}
+
 
 /*--------------------------------------------------------------
 |
@@ -1028,47 +1060,29 @@ div label[for=ui-component-toggle__yearly] {
     padding-top: 7.5rem;
   }
 
-/*--------------------------------------------------------------
-|
-| 7.7 FAQ
-|
---------------------------------------------------------------*/
+/*------------------------------------------------------------
+  |
+  | FAQ
+  |
+  ------------------------------------------------------------*/
 
-.ui-section-faq { padding-bottom: 5rem; }
+  .ui-section-faq__layout { margin-bottom: 3rem; }
 
-.ui-section-faq__layout {
-  margin-bottom: 2rem;
-  row-gap: var(--ui-gap-faq);
-  text-align: left;
-}
+  .ui-section-faq--answer { padding-left: 2rem; }
+  
+  /*------------------------------------------------------------
+  |
+  | CLOSE
+  |
+  ------------------------------------------------------------*/
 
-.ui-section-faq--question {
-  background-image: url(https://res.cloudinary.com/uisual/image/upload/assets/icons/question.svg);
-  margin-bottom: .5rem;
-}
-
-.ui-section-faq--answer { padding-left: 1.875rem; }
-
-.ui-section-faq--note { text-align: center; }
-
-/*--------------------------------------------------------------
-|
-| 7.8 CLOSE
-|
---------------------------------------------------------------*/
-
-.ui-section-close {
-  background-color: var(--ui-color-background-secondary);
-  padding-bottom: 5rem;
-  padding-top: 5rem;
-  text-align: center;
-}
-
-.ui-section-close__layout {
-  align-items: stretch;
-  flex-direction: column;
-  row-gap: var(--ui-typography-margin-body);
-}
+  .ui-section-close__layout {
+    align-items: center;
+    column-gap: var(--ui-layout-gutter);
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+  }
   
   /*------------------------------------------------------------
   |
