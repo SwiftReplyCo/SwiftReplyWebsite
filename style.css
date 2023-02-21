@@ -537,20 +537,20 @@ div label[for=ui-component-toggle__yearly] {
 
 /* AMOUNT */
 
-.ui-component-card--pricing-amount-1::before { content: "$5"; }
+.ui-component-card--pricing-amount-1::before { content: "Free"; }
 
 #ui-component-toggle__yearly:checked ~ div
-.ui-component-card--pricing-amount-1::before { content: "$3"; }
+.ui-component-card--pricing-amount-1::before { content: "$10"; }
 
 .ui-component-card--pricing-amount-2::before { content: "$15"; }
 
 #ui-component-toggle__yearly:checked ~ div
-.ui-component-card--pricing-amount-2::before { content: "$13"; }
+.ui-component-card--pricing-amount-2::before { content: "Free"; }
 
-.ui-component-card--pricing-amount-3::before { content: "$25"; }
+.ui-component-card--pricing-amount-3::before { content: "$89"; }
 
 #ui-component-toggle__yearly:checked ~ div
-.ui-component-card--pricing-amount-3::before { content: "$23"; }
+.ui-component-card--pricing-amount-3::before { content: "$129"; }
 
 /* LIST */
 
