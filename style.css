@@ -545,12 +545,12 @@ div label[for=ui-component-toggle__yearly] {
 .ui-component-card--pricing-amount-2::before { content: "$10"; }
 
 #ui-component-toggle__yearly:checked ~ div
-.ui-component-card--pricing-amount-2::before { content: "$108"; }
+.ui-component-card--pricing-amount-2::before { content: "$9"; }
 
 .ui-component-card--pricing-amount-3::before { content: "$19"; }
 
 #ui-component-toggle__yearly:checked ~ div
-.ui-component-card--pricing-amount-3::before { content: "$205"; }
+.ui-component-card--pricing-amount-3::before { content: "$17"; }
 
 /* LIST */
 
