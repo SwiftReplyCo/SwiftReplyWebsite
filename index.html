@@ -1,81 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <link href="images/favicon.ico" rel="icon" />
+        <!-- META -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="uisual" content="Made with Uisual (uisual.com)" />
+        <meta name="author" content="#" />
+        <meta name="description" content="#" />
+        <meta name="referrer" content="unsafe-url" />
+        <meta name="robots" content="index, follow" />
+        <!-- SPEED -->
+        <link rel="preconnect" href="https://res.cloudinary.com" />
+        <link rel="dns-prefetch" href="https://res.cloudinary.com" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+        <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+        <!-- LINK -->
+        <link rel="me" href="#" />
+        <link rel="canonical" href="#" />
+        <link rel="icon" type="image/png" href="#" sizes="48x48" />
+        <!-- PERFORMANCE -->
+        <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap"
+        />
+        <link rel="preload" as="style" href="style.css" />
+        <link rel="stylesheet" href="style.css" />
+        <!-- TITLE -->
+        <title>SwiftReply</title>
+    </head>
 
-<head>
-  <link href="images/favicon.ico" rel="icon">
-  <!-- META -->
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="uisual" content="Made with Uisual (uisual.com)">
-  <meta name="author" content="#">
-  <meta name="description" content="#">
-  <meta name="referrer" content="unsafe-url">
-  <meta name="robots" content="index, follow">
-  <!-- SPEED -->
-  <link rel="preconnect" href="https://res.cloudinary.com">
-  <link rel="dns-prefetch" href="https://res.cloudinary.com">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="dns-prefetch" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-  <!-- LINK -->
-  <link rel="me" href="#">
-  <link rel="canonical" href="#">
-  <link rel="icon" type="image/png" href="#" sizes="48x48">
-  <!-- PERFORMANCE -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap">
-  <link rel="preload" as="style" href="style.css">
-  <link rel="stylesheet" href="style.css">
-  <!-- TITLE -->
-  <title>SwiftReply</title>
-</head>
-
-<body>
-  <header role="banner" class="ui-section-header">
-    <div class="ui-layout-container">
-      <div class="ui-section-header__layout ui-layout-flex">
-        <!-- LOGO -->
-        <a href="#" role="link" aria-label="#" class="ui-section-header--logo">
-          <!--             <svg viewBox="0 0 18 18" height="18" width="18" role="img" aria-label="#">
+    <body>
+        <header role="banner" class="ui-section-header">
+            <div class="ui-layout-container">
+                <div class="ui-section-header__layout ui-layout-flex">
+                    <!-- LOGO -->
+                    <a
+                        href="#"
+                        role="link"
+                        aria-label="#"
+                        class="ui-section-header--logo"
+                    >
+                        <!--             <svg viewBox="0 0 18 18" height="18" width="18" role="img" aria-label="#">
               <path fill="#353535" d="M0 0h4.5v9a4.5 4.5 0 109 0V6H18v3A9 9 0 110 9V0zm18 4.5V0h-4.5v4.5H18z"/>
             </svg> -->
-          <img src="images/SwiftReply-logo.png" alt="SwiftReply logo" style="width:10em;height:auto;">
-        </a>
-        <!-- HAMBURGER -->
-        <input type="checkbox" id="ui-section-header--menu-id">
-        <label for="ui-section-header--menu-id" class="ui-section-header--menu-icon"></label>
-        <!-- MENU -->
-        <nav role="navigation" class="ui-section-header--nav ui-layout-flex">
-          <a href="#features" role="link" aria-label="#" class="ui-section-header--nav-link">Features</a>
-          <a href="#pricing" role="link" aria-label="#" class="ui-section-header--nav-link">Pricing</a>
-          <a href="#faq" role="link" aria-label="#" class="ui-section-header--nav-link">FAQ</a>
-        </nav>
-      </div>
-    </div>
-  </header>
-  <main role="main">
-    <section class="ui-section-hero">
-      <div class="ui-layout-container">
-        <div class="ui-section-hero__layout ui-layout-grid ui-layout-grid-2">
-          <!-- COPYWRITING -->
-          <div>
-            <h1>AI Email Drafts: Write Better Emails, Faster.</h1>
-            <p class="ui-text-intro">Effortlessly compose perfect emails and replies, drafted for you with AI so you can
-              focus on what really matters.</p>
-            <!-- CTA -->
-            <div class="ui-component-cta ui-layout-flex">
-              <a href="#" role="link" aria-label="#"
-                class="ui-component-button ui-component-button-normal ui-component-button-primary">Get Started for
-                Free</a>
-              <p class="ui-text-note"><small>7 days free trial.</small></p>
+                        <img
+                            src="images/SwiftReply-logo.png"
+                            alt="SwiftReply logo"
+                            style="width: 10em; height: auto"
+                        />
+                    </a>
+                    <!-- HAMBURGER -->
+                    <input type="checkbox" id="ui-section-header--menu-id" />
+                    <label
+                        for="ui-section-header--menu-id"
+                        class="ui-section-header--menu-icon"
+                    ></label>
+                    <!-- MENU -->
+                    <nav
+                        role="navigation"
+                        class="ui-section-header--nav ui-layout-flex"
+                    >
+                        <a
+                            href="#features"
+                            role="link"
+                            aria-label="#"
+                            class="ui-section-header--nav-link"
+                            >Features</a
+                        >
+                        <a
+                            href="#pricing"
+                            role="link"
+                            aria-label="#"
+                            class="ui-section-header--nav-link"
+                            >Pricing</a
+                        >
+                        <a
+                            href="#faq"
+                            role="link"
+                            aria-label="#"
+                            class="ui-section-header--nav-link"
+                            >FAQ</a
+                        >
+                    </nav>
+                </div>
             </div>
-          </div>
-          <!-- IMAGE -->
-          <img src="images/woman-holding-email-attachment.png" loading="lazy" alt="#" class="ui-image-half-right">
-        </div>
-      </div>
-    </section>
-    <!--       <section class="ui-section-customer">
+        </header>
+        <main role="main">
+            <section class="ui-section-hero">
+                <div class="ui-layout-container">
+                    <div
+                        class="ui-section-hero__layout ui-layout-grid ui-layout-grid-2"
+                    >
+                        <!-- COPYWRITING -->
+                        <div>
+                            <h1>
+                                AI Email Drafts: Write Better Emails, Faster.
+                            </h1>
+                            <p class="ui-text-intro">
+                                Effortlessly compose perfect emails and replies,
+                                drafted for you with AI so you can focus on what
+                                really matters.
+                            </p>
+                            <!-- CTA -->
+                            <div class="ui-component-cta ui-layout-flex">
+                                <a
+                                    href="#"
+                                    role="link"
+                                    aria-label="#"
+                                    class="ui-component-button ui-component-button-normal ui-component-button-primary"
+                                    >Get Started for Free</a
+                                >
+                                <p class="ui-text-note">
+                                    <small>7 days free trial.</small>
+                                </p>
+                            </div>
+                        </div>
+                        <!-- IMAGE -->
+                        <img
+                            src="images/woman-holding-email-attachment.png"
+                            loading="lazy"
+                            alt="#"
+                            class="ui-image-half-right"
+                        />
+                    </div>
+                </div>
+            </section>
+            <!--       <section class="ui-section-customer">
         <div class="ui-layout-container">
           <div class="ui-section-customer__layout ui-layout-flex">
             <img src="https://res.cloudinary.com/uisual/image/upload/assets/logos/facebook.svg" alt="#" class="ui-section-customer--logo">
@@ -86,232 +139,489 @@
           </div>
         </div>
       </section> -->
-    <a id="features">
-      <section class="ui-section-feature">
-        <div class="ui-layout-container">
-          <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
-            <!-- IMAGE -->
-            <img src="images/people-crowding-over-laptop.png" alt="#" class="ui-image-half-left">
-            <!-- FEATURE -->
-            <div>
-              <h2>Say goodbye to long hours crafting the perfect email reply</h2>
-              <p class="ui-text-intro">Let our AI do the heavy lifting. Craft your response in a few words and we'll
-                generate the perfect message based on the email's context.</p>
-              <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">Add the tone you want.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Regenerate drafts for the perfect
-                  email.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Get results in seconds.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">24/7 technical support.</li>
-              </ul>
-            </div>
-          </div>
-          <div class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2">
-            <!-- FEATURE -->
-            <div>
-              <h2>Made easy for you, your mom, and your boss</h2>
-              <p class="ui-text-intro">Revolutionize your email communication, perfect for anyone from a prompt
-                professional to a multitasking mom or a busy boss.</p>
-              <ul class="ui-component-list ui-component-list-feature ui-layout-grid">
-                <li class="ui-component-list--item ui-component-list--item-check">Worry less about unending emails to
-                  send.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Spend less time in your email.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Write thoughtful emails 24/7.</li>
-                <li class="ui-component-list--item ui-component-list--item-check">Easy for anyone to use.</li>
-              </ul>
-            </div>
-            <!-- IMAGE -->
-            <img src="images/man-working-on-laptop.png" alt="#" class="ui-image-half-right">
-          </div>
-        </div>
-      </section>
-    </a>
-    <section class="ui-section-pricing">
-      <div class="ui-layout-container">
-        <h2>Find your perfect plan</h2>
-        <p class="ui-text-intro">Start 7 days free. Then purchase a plan to start emailing like a pro.</p>
-        <!-- TOGGLE -->
-        <input type="radio" name="toggle" id="ui-component-toggle__monthly" checked>
-        <input type="radio" name="toggle" id="ui-component-toggle__yearly">
-        <div class="ui-component-toggle ui-layout-flex">
-          <label for="ui-component-toggle__monthly" class="ui-component-toggle--label">Billed Monthly</label>
-          <label for="ui-component-toggle__yearly" class="ui-component-toggle--label">Billed Yearly</label>
-        </div>
-        <p class="ui-text-note"><small>Save 10% with a yearly plan.</small></p>
-        <!-- PRICING -->
-        <div class="ui-section-pricing__layout ui-layout-grid ui-layout-grid-3">
-          <div class="ui-component-card ui-component-card--pricing">
-            <span><strong>Free</strong></span>
-            <!-- AMOUNT -->
-            <div class="ui-component-card--pricing-price">
-              <span class="ui-component-card--pricing-amount ui-component-card--pricing-amount-1"></span>
-              <span>/</span>
-              <span>month</span>
-            </div>
-            <span><small>Try it free for 7 days.</small></span>
-            <!-- LIST -->
-            <ul class="ui-component-list ui-component-list--pricing ui-layout-grid">
-              <li class="ui-component-list--item ui-component-list--item-check">Get up to 50 drafted emails.</li>
-              <li class="ui-component-list--item ui-component-list--item-check">Test one draft per email.</li>
-              <li class="ui-component-list--item ui-component-list--item-cross"><s>Priority support. </s></li>
-            </ul>
-            <!-- CTA -->
-            <a href="#" class="ui-component-button ui-component-button-big ui-component-button-secondary" role="link"
-              aria-label="#">Get Started</a>
-          </div>
-          <div class="ui-component-card ui-component-card--pricing">
-            <span><strong>Standard</strong></span>
-            <!-- AMOUNT -->
-            <div class="ui-component-card--pricing-price">
-              <span class="ui-component-card--pricing-amount ui-component-card--pricing-amount-2"></span>
-              <span>/</span>
-              <span>month</span>
-            </div>
-            <span><small>Perfect for anyone who writes emails.</small></span>
-            <!-- LIST -->
-            <ul class="ui-component-list ui-component-list--pricing ui-layout-grid">
-              <li class="ui-component-list--item ui-component-list--item-check">Get up to 1,000 drafted emails/month.
-              </li>
-              <li class="ui-component-list--item ui-component-list--item-check">Test multiple drafts per email.</li>
-              <li class="ui-component-list--item ui-component-list--item-check">Priority support.</li>
-            </ul>
-            <!-- CTA -->
-            <a href="#" class="ui-component-button ui-component-button-big ui-component-button-primary" role="link"
-              aria-label="#">Get Started</a>
-          </div>
-          <div class="ui-component-card ui-component-card--pricing">
-            <span><strong>Special</strong></span>
-            <!-- AMOUNT -->
-            <div class="ui-component-card--pricing-price">
-              <span class="ui-component-card--pricing-amount ui-component-card--pricing-amount-3"></span>
-              <span>/</span>
-              <span>month</span>
-            </div>
-            <span><small>Perfect for email power users.</small></span>
-            <!-- LIST -->
-            <ul class="ui-component-list ui-component-list--pricing ui-layout-grid">
-              <li class="ui-component-list--item ui-component-list--item-check">Get up to 5,000 drafted emails/month.
-              </li>
-              <li class="ui-component-list--item ui-component-list--item-check">Test multiple drafts per email.</li>
-              <li class="ui-component-list--item ui-component-list--item-check">Priority support.</li>
-            </ul>
-            <!-- CTA -->
-            <a href="#" class="ui-component-button ui-component-button-big ui-component-button-secondary" role="link"
-              aria-label="#">Get Started</a>
-          </div>
-        </div>
-        <!-- NOTE -->
-        <p>Have questions? <a href="mailto:atam@hmc.edu?SwiftReply - Hello!" role="link" aria-label="#">Contact us</a>.
-        </p>
-      </div>
-    </section>
-    <section class="ui-section-testimonial">
-      <div class="ui-layout-container">
-        <div class="ui-section-testimonial__layout ui-layout-grid ui-layout-grid-2">
-          <div class="ui-layout-column-4">
-            <img src="images/female_profile.png" alt="#"
-              class="ui-section-testimonial--avatar">
-            <p class="ui-section-testimonial--quote ui-text-intro">&ldquo;English is my second language, so using this
-              helps me refine my thoughts!&rdquo;</p>
-            <p class="ui-section-testimonial--author"><strong>Tiffany Su</strong><br><small
-                class="ui-text-note">Business Manager</small></p>
-          </div>
-          <div class="ui-layout-column-4">
-            <img src="images/male_profile.png" alt="#"
-              class="ui-section-testimonial--avatar">
-            <p class="ui-section-testimonial--quote ui-text-intro">&ldquo;I reply to and send 50 emails every day.
-              SwiftReply halves the time I spend in email. &rdquo;</p>
-            <p class="ui-section-testimonial--author"><strong>Chris Belum</strong><br><small class="ui-text-note">CEO of
-                Stealth Company</small></p>
-          </div>
-        </div>
-      </div>
-    </section>
-    <a id="faq">
-      <section class="ui-section-faq">
-        <div class="ui-layout-container">
-          <div class="ui-section-faq__layout ui-layout-grid ui-layout-grid-2">
-            <div>
-              <h4 class="ui-component-list--item ui-section-faq--question">How does the AI-powered email drafting software work?</h4>
-              <p class="ui-section-faq--answer">The software uses advanced AI algorithms to analyze the content of your 
-                emails and suggest the most relevant and effective language to include in your message. You simply provide 
-                a few keywords or phrases to indicate the tone and content of your message, and the software does the rest.</p>
-            </div>
-            <div>
-              <h4 class="ui-component-list--item ui-section-faq--question">What types of emails can I use the software for?</h4>
-              <p class="ui-section-faq--answer">The software is designed to be used for a wide range of email communications, 
-                including professional emails, personal messages, and even marketing or sales emails. Whether you need to send 
-                a quick message to a colleague or draft a more formal business email, QuickReply can help.</p>
-            </div>
-            <div>
-              <h4 class="ui-component-list--item ui-section-faq--question">Is my data secure when using QuickReply?</h4>
-              <p class="ui-section-faq--answer">Yes, we take data security very seriously and use advanced encryption methods 
-                to protect your information. We also do not store any sensitive data beyond what is necessary to provide the 
-                service, and do not share your data with any third parties.</p>
-            </div>
-            <div>
-              <h4 class="ui-component-list--item ui-section-faq--question">Does the software work with all email clients?</h4>
-              <p class="ui-section-faq--answer">The software is designed to work with Gmail. If you'd like us to support other email 
-               clients, please contact our team to let us know!</p>
-            </div>
-          </div>
-          <p class="ui-section-faq--note">Still have questions? <a href="mailto:atam@hmc.edu?SwiftReply - Hello!" role="link" aria-label="#">Contact us</a>.
-          </p>
-        </div>
-      </section>
-      <section class="ui-section-close">
-        <div class="ui-layout-container">
-          <div class="ui-section-close__layout ui-layout-flex">
-            <div>
-              <h2>Ready to start?</h2>
-              <p class="ui-text-intro">Draft your emails in one click.</p>
-            </div>
-            <!-- CTA -->
-            <div class="ui-component-cta ui-layout-flex">
-              <a href="#" role="link" aria-label="#"
-                class="ui-component-button ui-component-button-normal ui-component-button-primary">Get Started for
-                Free</a>
-              <p class="ui-text-note"><small>7 days free trial.</small></p>
-            </div>
-          </div>
-        </div>
-      </section>
-    </a>
-  </main>
-  <footer role="contentinfo" class="ui-section-footer">
-    <div class="ui-layout-container">
-      <div class="ui-section-footer__layout ui-layout-flex">
-        <!-- COPYRIGHT -->
-        <p class="ui-section-footer--copyright ui-text-note"><small>&copy; SwiftReply</small></p>
-        <!-- MENU -->
-        <a href="https://swiftreply.co/privacy" role="link" aria-label="privacy policy"
-          class="ui-section-footer">Privacy Policy</a>
-        <a href="mailto:atam@hmc.edu?SwiftReply - Hello!" role="link" aria-label="#">
+            <section id="features" class="ui-section-feature">
+                <div class="ui-layout-container">
+                    <div
+                        class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2"
+                    >
+                        <!-- IMAGE -->
+                        <img
+                            src="images/people-crowding-over-laptop.png"
+                            alt="#"
+                            class="ui-image-half-left"
+                        />
+                        <!-- FEATURE -->
+                        <div>
+                            <h2>
+                                Say goodbye to long hours crafting the perfect
+                                email reply
+                            </h2>
+                            <p class="ui-text-intro">
+                                Let our AI do the heavy lifting. Craft your
+                                response in a few words and we'll generate the
+                                perfect message based on the email's context.
+                            </p>
+                            <ul
+                                class="ui-component-list ui-component-list-feature ui-layout-grid"
+                            >
+                                <li
+                                    class="ui-component-list--item ui-component-list--item-check"
+                                >
+                                    Add the tone you want.
+                                </li>
+                                <li
+                                    class="ui-component-list--item ui-component-list--item-check"
+                                >
+                                    Regenerate drafts for the perfect email.
+                                </li>
+                                <li
+                                    class="ui-component-list--item ui-component-list--item-check"
+                                >
+                                    Get results in seconds.
+                                </li>
+                                <li
+                                    class="ui-component-list--item ui-component-list--item-check"
+                                >
+                                    24/7 technical support.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div
+                        class="ui-section-feature__layout ui-layout-grid ui-layout-grid-2"
+                    >
+                        <!-- FEATURE -->
+                        <div>
+                            <h2>Made easy for you, your mom, and your boss</h2>
+                            <p class="ui-text-intro">
+                                Revolutionize your email communication, perfect
+                                for anyone from a prompt professional to a
+                                multitasking mom or a busy boss.
+                            </p>
+                            <ul
+                                class="ui-component-list ui-component-list-feature ui-layout-grid"
+                            >
+                                <li
+                                    class="ui-component-list--item ui-component-list--item-check"
+                                >
+                                    Worry less about unending emails to send.
+                                </li>
+                                <li
+                                    class="ui-component-list--item ui-component-list--item-check"
+                                >
+                                    Spend less time in your email.
+                                </li>
+                                <li
+                                    class="ui-component-list--item ui-component-list--item-check"
+                                >
+                                    Write thoughtful emails 24/7.
+                                </li>
+                                <li
+                                    class="ui-component-list--item ui-component-list--item-check"
+                                >
+                                    Easy for anyone to use.
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- IMAGE -->
+                        <img
+                            src="images/man-working-on-laptop.png"
+                            alt="#"
+                            class="ui-image-half-right"
+                        />
+                    </div>
+                </div>
+            </section>
+            <section id="pricing" class="ui-section-pricing">
+                <div class="ui-layout-container">
+                    <h2>Find your perfect plan</h2>
+                    <p class="ui-text-intro">
+                        Start 7 days free. Then purchase a plan to start
+                        emailing like a pro.
+                    </p>
+                    <!-- TOGGLE -->
+                    <input
+                        type="radio"
+                        name="toggle"
+                        id="ui-component-toggle__monthly"
+                        checked
+                    />
+                    <input
+                        type="radio"
+                        name="toggle"
+                        id="ui-component-toggle__yearly"
+                    />
+                    <div class="ui-component-toggle ui-layout-flex">
+                        <label
+                            for="ui-component-toggle__monthly"
+                            class="ui-component-toggle--label"
+                            >Billed Monthly</label
+                        >
+                        <label
+                            for="ui-component-toggle__yearly"
+                            class="ui-component-toggle--label"
+                            >Billed Yearly</label
+                        >
+                    </div>
+                    <p class="ui-text-note">
+                        <small>Save 10% with a yearly plan.</small>
+                    </p>
+                    <!-- PRICING -->
+                    <div
+                        class="ui-section-pricing__layout ui-layout-grid ui-layout-grid-3"
+                    >
+                        <div
+                            class="ui-component-card ui-component-card--pricing"
+                        >
+                            <span><strong>Free</strong></span>
+                            <!-- AMOUNT -->
+                            <div class="ui-component-card--pricing-price">
+                                <span
+                                    class="ui-component-card--pricing-amount ui-component-card--pricing-amount-1"
+                                ></span>
+                                <span>/</span>
+                                <span>month</span>
+                            </div>
+                            <span><small>Try it free for 7 days.</small></span>
+                            <!-- LIST -->
+                            <ul
+                                class="ui-component-list ui-component-list--pricing ui-layout-grid"
+                            >
+                                <li
+                                    class="ui-component-list--item ui-component-list--item-check"
+                                >
+                                    Get up to 50 drafted emails.
+                                </li>
+                                <li
+                                    class="ui-component-list--item ui-component-list--item-check"
+                                >
+                                    Test one draft per email.
+                                </li>
+                                <li
+                                    class="ui-component-list--item ui-component-list--item-cross"
+                                >
+                                    <s>Priority support. </s>
+                                </li>
+                            </ul>
+                            <!-- CTA -->
+                            <a
+                                href="#"
+                                class="ui-component-button ui-component-button-big ui-component-button-secondary"
+                                role="link"
+                                aria-label="#"
+                                >Get Started</a
+                            >
+                        </div>
+                        <div
+                            class="ui-component-card ui-component-card--pricing"
+                        >
+                            <span><strong>Standard</strong></span>
+                            <!-- AMOUNT -->
+                            <div class="ui-component-card--pricing-price">
+                                <span
+                                    class="ui-component-card--pricing-amount ui-component-card--pricing-amount-2"
+                                ></span>
+                                <span>/</span>
+                                <span>month</span>
+                            </div>
+                            <span
+                                ><small
+                                    >Perfect for anyone who writes
+                                    emails.</small
+                                ></span
+                            >
+                            <!-- LIST -->
+                            <ul
+                                class="ui-component-list ui-component-list--pricing ui-layout-grid"
+                            >
+                                <li
+                                    class="ui-component-list--item ui-component-list--item-check"
+                                >
+                                    Get up to 1,000 drafted emails/month.
+                                </li>
+                                <li
+                                    class="ui-component-list--item ui-component-list--item-check"
+                                >
+                                    Test multiple drafts per email.
+                                </li>
+                                <li
+                                    class="ui-component-list--item ui-component-list--item-check"
+                                >
+                                    Priority support.
+                                </li>
+                            </ul>
+                            <!-- CTA -->
+                            <a
+                                href="#"
+                                class="ui-component-button ui-component-button-big ui-component-button-primary"
+                                role="link"
+                                aria-label="#"
+                                >Get Started</a
+                            >
+                        </div>
+                        <div
+                            class="ui-component-card ui-component-card--pricing"
+                        >
+                            <span><strong>Special</strong></span>
+                            <!-- AMOUNT -->
+                            <div class="ui-component-card--pricing-price">
+                                <span
+                                    class="ui-component-card--pricing-amount ui-component-card--pricing-amount-3"
+                                ></span>
+                                <span>/</span>
+                                <span>month</span>
+                            </div>
+                            <span
+                                ><small
+                                    >Perfect for email power users.</small
+                                ></span
+                            >
+                            <!-- LIST -->
+                            <ul
+                                class="ui-component-list ui-component-list--pricing ui-layout-grid"
+                            >
+                                <li
+                                    class="ui-component-list--item ui-component-list--item-check"
+                                >
+                                    Get up to 5,000 drafted emails/month.
+                                </li>
+                                <li
+                                    class="ui-component-list--item ui-component-list--item-check"
+                                >
+                                    Test multiple drafts per email.
+                                </li>
+                                <li
+                                    class="ui-component-list--item ui-component-list--item-check"
+                                >
+                                    Priority support.
+                                </li>
+                            </ul>
+                            <!-- CTA -->
+                            <a
+                                href="#"
+                                class="ui-component-button ui-component-button-big ui-component-button-secondary"
+                                role="link"
+                                aria-label="#"
+                                >Get Started</a
+                            >
+                        </div>
+                    </div>
+                    <!-- NOTE -->
+                    <p>
+                        Have questions?
+                        <a
+                            href="mailto:atam@hmc.edu?SwiftReply - Hello!"
+                            role="link"
+                            aria-label="#"
+                            >Contact us</a
+                        >.
+                    </p>
+                </div>
+            </section>
+            <section id="testimonial" class="ui-section-testimonial">
+                <div class="ui-layout-container">
+                    <div
+                        class="ui-section-testimonial__layout ui-layout-grid ui-layout-grid-2"
+                    >
+                        <div class="ui-layout-column-4">
+                            <img
+                                src="images/female_profile.png"
+                                alt="#"
+                                class="ui-section-testimonial--avatar"
+                            />
+                            <p
+                                class="ui-section-testimonial--quote ui-text-intro"
+                            >
+                                &ldquo;English is my second language, so using
+                                this helps me refine my thoughts!&rdquo;
+                            </p>
+                            <p class="ui-section-testimonial--author">
+                                <strong>Tiffany Su</strong><br /><small
+                                    class="ui-text-note"
+                                    >Business Manager</small
+                                >
+                            </p>
+                        </div>
+                        <div class="ui-layout-column-4">
+                            <img
+                                src="images/male_profile.png"
+                                alt="#"
+                                class="ui-section-testimonial--avatar"
+                            />
+                            <p
+                                class="ui-section-testimonial--quote ui-text-intro"
+                            >
+                                &ldquo;I reply to and send 50 emails every day.
+                                SwiftReply halves the time I spend in email.
+                                &rdquo;
+                            </p>
+                            <p class="ui-section-testimonial--author">
+                                <strong>Chris Belum</strong><br /><small
+                                    class="ui-text-note"
+                                    >CEO of Stealth Company</small
+                                >
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section id="faq" class="ui-section-faq">
+                <div class="ui-layout-container">
+                    <div
+                        class="ui-section-faq__layout ui-layout-grid ui-layout-grid-2"
+                    >
+                        <div>
+                            <h4
+                                class="ui-component-list--item ui-section-faq--question"
+                            >
+                                How does the AI-powered email drafting software
+                                work?
+                            </h4>
+                            <p class="ui-section-faq--answer">
+                                The software uses advanced AI algorithms to
+                                analyze the content of your emails and suggest
+                                the most relevant and effective language to
+                                include in your message. You simply provide a
+                                few keywords or phrases to indicate the tone and
+                                content of your message, and the software does
+                                the rest.
+                            </p>
+                        </div>
+                        <div>
+                            <h4
+                                class="ui-component-list--item ui-section-faq--question"
+                            >
+                                What types of emails can I use the software for?
+                            </h4>
+                            <p class="ui-section-faq--answer">
+                                The software is designed to be used for a wide
+                                range of email communications, including
+                                professional emails, personal messages, and even
+                                marketing or sales emails. Whether you need to
+                                send a quick message to a colleague or draft a
+                                more formal business email, QuickReply can help.
+                            </p>
+                        </div>
+                        <div>
+                            <h4
+                                class="ui-component-list--item ui-section-faq--question"
+                            >
+                                Is my data secure when using QuickReply?
+                            </h4>
+                            <p class="ui-section-faq--answer">
+                                Yes, we take data security very seriously and
+                                use advanced encryption methods to protect your
+                                information. We also do not store any sensitive
+                                data beyond what is necessary to provide the
+                                service, and do not share your data with any
+                                third parties.
+                            </p>
+                        </div>
+                        <div>
+                            <h4
+                                class="ui-component-list--item ui-section-faq--question"
+                            >
+                                Does the software work with all email clients?
+                            </h4>
+                            <p class="ui-section-faq--answer">
+                                The software is designed to work with Gmail. If
+                                you'd like us to support other email clients,
+                                please contact our team to let us know!
+                            </p>
+                        </div>
+                    </div>
+                    <p class="ui-section-faq--note">
+                        Still have questions?
+                        <a
+                            href="mailto:atam@hmc.edu?SwiftReply - Hello!"
+                            role="link"
+                            aria-label="#"
+                            >Contact us</a
+                        >.
+                    </p>
+                </div>
+            </section>
+            <section class="ui-section-close">
+                <div class="ui-layout-container">
+                    <div class="ui-section-close__layout ui-layout-flex">
+                        <div>
+                            <h2>Ready to start?</h2>
+                            <p class="ui-text-intro">
+                                Draft your emails in one click.
+                            </p>
+                        </div>
+                        <!-- CTA -->
+                        <div class="ui-component-cta ui-layout-flex">
+                            <a
+                                href="#"
+                                role="link"
+                                aria-label="#"
+                                class="ui-component-button ui-component-button-normal ui-component-button-primary"
+                                >Get Started for Free</a
+                            >
+                            <p class="ui-text-note">
+                                <small>7 days free trial.</small>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer role="contentinfo" class="ui-section-footer">
+            <div class="ui-layout-container">
+                <div class="ui-section-footer__layout ui-layout-flex">
+                    <!-- COPYRIGHT -->
+                    <p class="ui-section-footer--copyright ui-text-note">
+                        <small>&copy; SwiftReply</small>
+                    </p>
+                    <!-- MENU -->
+                    <a
+                        href="https://swiftreply.co/privacy"
+                        role="link"
+                        aria-label="privacy policy"
+                        class="ui-section-footer"
+                        >Privacy Policy</a
+                    >
+                    <a
+                        href="mailto:atam@hmc.edu?SwiftReply - Hello!"
+                        role="link"
+                        aria-label="#"
+                    >
+                        <svg
+                            viewBox="0 0 24 24"
+                            height="16"
+                            width="16"
+                            fill="none"
+                            stroke="#AEAEAE"
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="1"
+                            role="img"
+                            aria-label="#"
+                        >
+                            <path
+                                d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z"
+                            />
+                        </svg>
+                    </a>
+                    <!--         <a href="#" role="link" aria-label="#">
           <svg viewBox="0 0 24 24" height="16" width="16" fill="none" stroke="#AEAEAE" stroke-linecap="round"
             stroke-linejoin="round" stroke-width="1" role="img" aria-label="#">
-            <path
-              d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z"/>
-          </svg>
-        </a>
-<!--         <a href="#" role="link" aria-label="#">
-          <svg viewBox="0 0 24 24" height="16" width="16" fill="none" stroke="#AEAEAE" stroke-linecap="round"
-            stroke-linejoin="round" stroke-width="1" role="img" aria-label="#">
-<!--             <rect width="20" height="20" x="2" y="2" rx="5" ry="5" /> -->
+<rect width="20" height="20" x="2" y="2" rx="5" ry="5" />
             <path
               d="M24 21h-24v-18h24v18zm-23-16.477v15.477h22v-15.477l-10.999 10-11.001-10zm21.089-.523h-20.176l10.088 9.171 10.088-9.171z" />
           </svg>
         </a> -->
-<!--         <a href="#" role="link" aria-label="#">
+                    <!--         <a href="#" role="link" aria-label="#">
           <svg viewBox="0 0 24 24" height="16" width="16" fill="none" stroke="#AEAEAE" stroke-linecap="round"
             stroke-linejoin="round" stroke-width="1" role="img" aria-label="#">
-<!--             <circle cx="12" cy="12" r="10" /> -->
+<circle cx="12" cy="12" r="10" /> 
             <path
               d="M18.384,22.779c0.322,0.228 0.737,0.285 1.107,0.145c0.37,-0.141 0.642,-0.457 0.724,-0.84c0.869,-4.084 2.977,-14.421 3.768,-18.136c0.06,-0.28 -0.04,-0.571 -0.26,-0.758c-0.22,-0.187 -0.525,-0.241 -0.797,-0.14c-4.193,1.552 -17.106,6.397 -22.384,8.35c-0.335,0.124 -0.553,0.446 -0.542,0.799c0.012,0.354 0.25,0.661 0.593,0.764c2.367,0.708 5.474,1.693 5.474,1.693c0,0 1.452,4.385 2.209,6.615c0.095,0.28 0.314,0.5 0.603,0.576c0.288,0.075 0.596,-0.004 0.811,-0.207c1.216,-1.148 3.096,-2.923 3.096,-2.923c0,0 3.572,2.619 5.598,4.062Zm-11.01,-8.677l1.679,5.538l0.373,-3.507c0,0 6.487,-5.851 10.185,-9.186c0.108,-0.098 0.123,-0.262 0.033,-0.377c-0.089,-0.115 -0.253,-0.142 -0.376,-0.064c-4.286,2.737 -11.894,7.596 -11.894,7.596Z" />
           </svg>
         </a> -->
-      </div>
-    </div>
-  </footer>
-</body>
-
+                </div>
+            </div>
+        </footer>
+    </body>
 </html>

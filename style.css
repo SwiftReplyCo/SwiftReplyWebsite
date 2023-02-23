@@ -132,6 +132,7 @@ TABLE OF CONTENT
 --------------------------------------------------------------*/
 
 html {
+    scroll-behavior: smooth;
     box-sizing: border-box;
 }
 
