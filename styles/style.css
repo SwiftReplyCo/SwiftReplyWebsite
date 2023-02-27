@@ -273,6 +273,7 @@ svg {
 .ui-component-button {
     border: 0.0625rem solid var(--ui-color-brand);
     border-radius: var(--ui-radius-button);
+    cursor: pointer;
     display: block;
     font-weight: 700;
     line-height: 1;
