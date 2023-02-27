@@ -1,5 +1,4 @@
-const endpoint =
-    'https://0iljp0wgwh.execute-api.us-west-2.amazonaws.com/production/api/payments/create-trial';
+const endpoint = 'https://api.swiftreply.co/prod/api/payments/create-trial';
 const emailInput = document.getElementById('email-input');
 const signUpButton = document.getElementById('sign-up-button');
 
