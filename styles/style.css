@@ -1214,3 +1214,19 @@ input[name='toggle'] {
         padding-top: 3rem;
     }
 }
+
+/* CUSTOM */
+
+#toast {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#toast-text {
+    color: #fff;
+    text-align: center;
+}
