@@ -390,7 +390,7 @@ input[name='toggle'] {
 |
 --------------------------------------------------------------*/
 
-#email-input {
+/* #email-input {
     border-radius: 15px;
     background: white;
     padding: 10px; 
@@ -406,7 +406,7 @@ input[name='toggle'] {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
 }
-
+ */
 /*--------------------------------------------------------------
 7.0 SECTION
 --------------------------------------------------------------*/
