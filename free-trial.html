@@ -34,6 +34,12 @@
 
     <body>
         <div id="toast">
+            <div id="loader" class="lds-ring">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
             <p id="toast-text"></p>
         </div>
         <header role="banner" class="ui-section-header">
@@ -84,12 +90,14 @@
                                 Sign up for your 7 day free trial here.
                             </p>
                             <!-- CTA -->
-                            <div
-                                class="ui-component-cta ui-layout-flex ui-layout-flex-column"
-                            >
+                            <div class="ui-component-cta ui-layout-flex">
                                 <div>
                                     <label for="email-input">Gmail</label>
-                                    <input id="email-input" type="text" placeholder="Gmail"/>
+                                    <input
+                                        id="email-input"
+                                        type="text"
+                                        placeholder="swiftreply@gmail.com"
+                                    />
                                 </div>
                                 <div>
                                     <a
@@ -97,7 +105,8 @@
                                         class="ui-component-button--pricing ui-component-button ui-component-button-big ui-component-button-primary"
                                         role="link"
                                         aria-label="#"
-                                        >Get Started</a
+                                    >
+                                        Get Started</a
                                     >
                                 </div>
                             </div>
