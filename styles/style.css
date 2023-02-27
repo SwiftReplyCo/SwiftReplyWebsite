@@ -1218,7 +1218,7 @@ input[name='toggle'] {
 /* CUSTOM */
 
 #toast {
-    position: absolute;
+    position: sticky;
     width: 100%;
     top: 0;
     display: flex;
