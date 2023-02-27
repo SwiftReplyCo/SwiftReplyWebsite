@@ -3,7 +3,9 @@ const emailInput = document.getElementById('email-input');
 const signUpButton = document.getElementById('sign-up-button');
 const toast = document.getElementById('toast');
 const toastText = document.getElementById('toast-text');
-const loader = document.getElementById('loader');
+const loader = document.getElementById('toast-loader');
+
+loader.style.display = 'none';
 
 signUpButton.addEventListener('click', function () {
     const email = emailInput.value;

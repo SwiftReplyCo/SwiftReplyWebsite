@@ -383,7 +383,6 @@ input[name='toggle'] {
     background-image: url(https://res.cloudinary.com/uisual/image/upload/assets/icons/cross.svg);
 }
 
-
 /*--------------------------------------------------------------
 |
 | 6.6 INPUT EMAIL
@@ -1241,29 +1240,30 @@ input[name='toggle'] {
     }
 }
 
-/* CUSTOM */
+/* CUSTOMIZATION */
 
-#toast {
+.ui-component-toast {
     width: 100%;
     top: 0;
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 15px;
 }
 
-#toast-text {
+.ui-component-toast--text {
     color: #fff;
     text-align: center;
 }
 
-.lds-ring {
+.ui-component-loader {
     display: inline-block;
     position: relative;
     width: 40px;
     height: 40px;
 }
 
-.lds-ring div {
+.ui-component-loader div {
     box-sizing: border-box;
     display: block;
     position: absolute;
@@ -1272,31 +1272,27 @@ input[name='toggle'] {
     margin: 4px;
     border: 4px solid #fff;
     border-radius: 50%;
-    animation: lds-ring 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
+    animation: ui-component-loader 1.2s cubic-bezier(0.5, 0, 0.5, 1) infinite;
     border-color: #fff transparent transparent transparent;
 }
 
-.lds-ring div:nth-child(1) {
+.ui-component-loader div:nth-child(1) {
     animation-delay: -0.45s;
 }
 
-.lds-ring div:nth-child(2) {
+.ui-component-loader div:nth-child(2) {
     animation-delay: -0.3s;
 }
 
-.lds-ring div:nth-child(3) {
+.ui-component-loader div:nth-child(3) {
     animation-delay: -0.15s;
 }
 
-@keyframes lds-ring {
+@keyframes ui-component-loader {
     0% {
         transform: rotate(0deg);
     }
     100% {
         transform: rotate(360deg);
     }
-}
-
-#loader {
-    display: none;
 }
