@@ -15,6 +15,7 @@ TABLE OF CONTENT
 |  6.3 TOGGLE
 |  6.4 CARD
 |  6.5 LIST
+|  6.6 INPUT EMAIL
 7.0 SECTION
 |  7.1 HEADER
 |  7.2 HERO
@@ -380,6 +381,30 @@ input[name='toggle'] {
 
 .ui-component-list--item-cross {
     background-image: url(https://res.cloudinary.com/uisual/image/upload/assets/icons/cross.svg);
+}
+
+
+/*--------------------------------------------------------------
+|
+| 6.6 INPUT EMAIL
+|
+--------------------------------------------------------------*/
+
+#email-input {
+    border-radius: 15px;
+    background: white;
+    padding: 10px; 
+    width: 200px;
+    height: 15px; 
+	color: var(--ui-color-typography-body);
+    font-family: var(--ui-typography-typeface);
+    font-feature-settings: 'liga', 'kern';
+    font-size: var(--ui-typography-p);
+    font-weight: 400;
+    line-height: var(--ui-typography-p-leading);
+    margin: 0 auto;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
 }
 
 /*--------------------------------------------------------------
