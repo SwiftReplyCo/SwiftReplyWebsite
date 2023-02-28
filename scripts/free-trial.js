@@ -9,6 +9,9 @@ loader.style.display = 'none';
 
 signUpButton.addEventListener('click', function () {
     const email = emailInput.value;
+    if (!email) {
+        return;
+    }
     renderInfoToast();
     fetch(endpoint, {
         method: 'POST',
