@@ -1296,3 +1296,32 @@ input[name='toggle'] {
         transform: rotate(360deg);
     }
 }
+
+.ui-component-label {
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.ui-component-input {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-bottom: 2px solid #1a1a1a;
+    border-radius: 0px;
+    font-size: 16px;
+    outline: none;
+}
+
+.ui-layout-flex-column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+
+#ui-layout-free-trial {
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 25px;
+    flex-direction: column;
+}

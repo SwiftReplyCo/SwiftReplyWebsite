@@ -61,17 +61,6 @@
                             style="width: 10em; height: auto"
                         />
                     </a>
-                    <!-- HAMBURGER -->
-                    <input type="checkbox" id="ui-section-header--menu-id" />
-                    <label
-                        for="ui-section-header--menu-id"
-                        class="ui-section-header--menu-icon"
-                    ></label>
-                    <!-- MENU -->
-                    <nav
-                        role="navigation"
-                        class="ui-section-header--nav ui-layout-flex"
-                    ></nav>
                 </div>
             </div>
         </header>
@@ -91,10 +80,15 @@
                                 valid Gmail or Gsuite email.
                             </p>
                             <!-- CTA -->
-                            <div class="ui-component-cta ui-layout-flex">
-                                <div>
-                                    <label for="email-input">Gmail</label>
+                            <div id="ui-layout-free-trial" class="ui-component-cta ui-layout-flex">
+                                <div class="ui-layout-flex-column">
+                                    <label
+                                        class="ui-component-label"
+                                        for="email-input"
+                                        >Gmail</label
+                                    >
                                     <input
+                                        class="ui-component-input"
                                         id="email-input"
                                         type="text"
                                         placeholder="swiftreply@gmail.com"
