@@ -1,4 +1,3 @@
-const endpoint = 'https://api.swiftreply.co/prod/api/payments/create-trial';
 const emailInput = document.getElementById('email-input');
 const signUpButton = document.getElementById('sign-up-button');
 const toast = document.getElementById('toast');
@@ -7,13 +6,21 @@ const loader = document.getElementById('toast-loader');
 
 loader.style.display = 'none';
 
+function getFreeTrialEndpoint() {
+    if (window.location.hostname === 'localhost') {
+        return 'https://api.swiftreply.co/dev/api/payments/create-trial';
+    } else {
+        return 'https://api.swiftreply.co/prod/api/payments/create-trial';
+    }
+}
+
 signUpButton.addEventListener('click', function () {
     const email = emailInput.value;
     if (!email) {
         return;
     }
     renderInfoToast();
-    fetch(endpoint, {
+    fetch(getFreeTrialEndpoint(), {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
